@@ -1,26 +1,39 @@
 #footer {
-    background-color: #1F1F1F;
+    background-color: #080101;
     color: #ffffff;
-    padding: 0.5rem 6rem;
+    padding: 1rem 6rem;
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 4rem;
 }
 
-.footer-top {
-    display: flex;          /* coloca logo + blocos de links na mesma linha */
-    justify-content: center;
-    align-items: center;/* alinha pelo topo */
-    gap: 4rem;              /* espaço horizontal entre logo e links */
-    flex-wrap: wrap;        /* quebra para baixo se faltar largura */
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* <-- isso é o que centraliza verticalmente */
+    gap: 6rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 220px; /* ⬅️ altura mínima definida para permitir o alinhamento */
 }
+
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 1.2rem;
+     margin-top: 30px;
+}
+
 
 /* a logo não precisa mais de margin-top extra */
 .footer-logo {
-    width: 253px;
-    height: 44px;
-    margin-top: 70px;              /* zera a antiga margem */
+    width: 203px;
+    height: 50px;
+    margin-top: 0;
 }
 
 .footer-description {
@@ -31,9 +44,8 @@
 
 .footer-links {
     display: flex;
-    justify-content: flex-end;
-    gap: 8.1rem;
-    flex-wrap: wrap;
+    gap: 8.2rem; /* espaço entre os blocos de link */
+    margin-top: 50px;
 }
 
 .footer-links h4 {
@@ -44,7 +56,8 @@
 
 .footer-links ul {
     list-style: none;
-    padding-top: 15px;
+    padding-top: 22px;
+    min-width: 150px;
 }
 
 .footer-links li {
@@ -75,5 +88,23 @@
 }
 
 .social-icons i:hover {
-    color: #fff;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .footer-main {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-top {
+    align-items: center;
+  }
 }
