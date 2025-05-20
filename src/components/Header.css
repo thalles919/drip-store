@@ -27,7 +27,7 @@
 #header-right {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 #header-right a {
@@ -69,12 +69,55 @@
 }
 
 #mini-cart {
- width: 24px;
+  width: 24px;
   height: 24px;
   margin-left: 70px;
+  cursor: pointer;
 }
 
 #search-container {
    position: relative;
-   width: 560px;
+   width: 564px;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 0.5rem 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  font-family: 'Inter', sans-serif;
+  padding-left: 120px;
+}
+
+#nav-links ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 23px;
+}
+
+#nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+#nav-links ul li a.active {
+  border-bottom: 2px solid #C92071;
+  padding-bottom: 4px;
+  color: #C92071;
+}
+
+#nav-links li a:hover {
+  color: #C92071;
+}
+
+#header-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

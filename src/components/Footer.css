@@ -1,0 +1,79 @@
+#footer {
+    background-color: #1F1F1F;
+    color: #ffffff;
+    padding: 0.5rem 6rem;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-top {
+    display: flex;          /* coloca logo + blocos de links na mesma linha */
+    justify-content: center;
+    align-items: center;/* alinha pelo topo */
+    gap: 4rem;              /* espaço horizontal entre logo e links */
+    flex-wrap: wrap;        /* quebra para baixo se faltar largura */
+}
+
+/* a logo não precisa mais de margin-top extra */
+.footer-logo {
+    width: 253px;
+    height: 44px;
+    margin-top: 70px;              /* zera a antiga margem */
+}
+
+.footer-description {
+    margin-top: 1rem;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8.1rem;
+    flex-wrap: wrap;
+}
+
+.footer-links h4 {
+    margin-bottom: 0.8rem;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding-top: 15px;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.footer-links li:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icons i {
+    margin-right: 1rem;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.social-icons i:hover {
+    color: #fff;
+}
