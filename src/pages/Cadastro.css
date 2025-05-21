@@ -1,0 +1,59 @@
+#headerCadastro {
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+#logoCadastro {
+    width: 172.5px;
+    height: 30px;
+}
+
+
+
+#mainCadastro {
+  background: linear-gradient(to bottom, #B5B6F2, #fff);
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+
+#formCadastro {
+  background-color: #FFFFFF;
+  height: 375px;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0; /* Impede de encolher */
+  margin-bottom: 90px;
+}
+
+#posicaoImagem {
+  display: flex;
+  gap: 0px; /* controla o espaço entre as imagens */
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+#imagemCadastro1 {
+   width: 370px; /* ajuste para caber ambas lado a lado */
+   height: auto;
+   margin-bottom: 90px;
+}
+
+#imagemCadastro2 {
+   width: 390px; /* ajuste para caber ambas lado a lado */
+   height: auto;
+   margin-top: 160px;
+   margin-left: -90px;
+}

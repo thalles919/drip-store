@@ -35,6 +35,10 @@
   color: #474747;
 }
 
+#header-right a:hover {
+  color: #888;
+}
+
 #search-pesquisa {
   width: 100%;
   padding-left: 1rem;
