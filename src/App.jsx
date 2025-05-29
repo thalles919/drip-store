@@ -1,12 +1,15 @@
-import Header from "./components/Header";
-import Paths from "./Routes/Paths";
+import { useState } from 'react'
+import './App.css'
+import Home from './pages/Home'
 
-const App = () => {
+function App() {
+  const [count, setCount] = useState(0)
+
   return (
-     <>
-        <Paths />
-     </>
-  );
+    <>
+    <Home />
+    </>
+  )
 }
- 
-export default App;
+
+export default App

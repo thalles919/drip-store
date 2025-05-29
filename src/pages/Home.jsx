@@ -3,10 +3,10 @@ import mainHome from '../assets/main-home.png';
 import { useState } from 'react';
 
 const produtos = [
-    { id: 1, nome: "Produto 1", preco: "R$ 99,99", imagem: "https://via.placeholder.com/200x150" },
-    { id: 2, nome: "Produto 2", preco: "R$ 149,99", imagem: "https://via.placeholder.com/200x150" },
-    { id: 3, nome: "Produto 3", preco: "R$ 199,99", imagem: "https://via.placeholder.com/200x150" },
-    { id: 4, nome: "Produto 4", preco: "R$ 249,99", imagem: "https://via.placeholder.com/200x150" }
+    { id: 1, nome: "Produto 1", preco: "R$ 99,99", imagem: "https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/refs/heads/main/public/produc-image-1.jpeg" },
+    { id: 2, nome: "Produto 2", preco: "R$ 149,99", imagem: "https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/refs/heads/main/public/produc-image-2.jpeg" },
+    { id: 3, nome: "Produto 3", preco: "R$ 199,99", imagem: "https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/refs/heads/main/public/produc-image-3.jpeg" },
+    { id: 4, nome: "Produto 4", preco: "R$ 249,99", imagem: "https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/refs/heads/main/public/produc-image-4.jpeg" }
 ];
 
 const Home = () => {
