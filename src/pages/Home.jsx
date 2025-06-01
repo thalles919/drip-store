@@ -1,4 +1,4 @@
-import './Home.css';
+import '../layout/App.jsx/Home.css';
 import mainHome from '../assets/main-home.png';
 import { useState } from 'react';
 

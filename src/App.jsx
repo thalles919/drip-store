@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import './App.css'
-import Home from './pages/Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import BootstrapCarousel from './components/Carrosel';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Home />
+    <div className="container mt-4">
+      <BootstrapCarousel />
+    </div>
     </>
   )
 }
